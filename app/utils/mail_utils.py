@@ -2,10 +2,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-EMAIL_HOST = "smtp.gmail.com"  # Replace with your SMTP server
-EMAIL_PORT = 587
-EMAIL_ADDRESS = "nevivaghani793@gmail.com"
-EMAIL_PASSWORD = "kvec hvon dtff zonw"
+EMAIL_HOST = ""  # Replace with your SMTP server
+EMAIL_PORT = 
+EMAIL_ADDRESS = ""
+EMAIL_PASSWORD = "k"
 
 def send_email_otp(email: str, otp: str):
     subject = "Your OTP for Login"
